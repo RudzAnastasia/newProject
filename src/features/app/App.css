@@ -1,0 +1,32 @@
+.App {
+    width: 1750px;
+    height: 1120px;
+    margin: 0 auto;
+    padding: 30px 40px 40px 40px;
+    border-radius: 35px;
+    background: rgba(241, 246, 249, 0.40);
+}
+
+.inputAntD {
+    max-width: 360px;
+    height: 70px;
+    border-radius: 50px;
+    background: #444444;
+    opacity: 0.5;
+}
+
+.inputAntD input {
+    background-color: transparent;
+}
+
+input::placeholder {
+    color: white !important;
+    font-size: 20px;
+}
+
+.headerNav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 800px;
+}
