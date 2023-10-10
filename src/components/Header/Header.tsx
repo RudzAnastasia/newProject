@@ -14,6 +14,7 @@ const Header = () => {
                     placeholder="Type here to search"
                     prefix={<SearchOutlined/>}/>
                 <Navigation/>
+                <div>lallalal</div>
             </div>
         </header>
     );
